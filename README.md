@@ -1,2 +1,5 @@
-# vue-Table-Export
-vue-Table-Export
+# vue-table-export
+
+## externals
+
+tableExport
