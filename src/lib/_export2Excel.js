@@ -131,7 +131,7 @@ export function export_json_to_excel(th, jsonData, defaultTitle, defaultSheet, o
     var data = jsonData;
     data.unshift(th);
     if (options.header) data.unshift([options.header]);
-    var ws_name = defaultSheet || "CareyShop";
+    var ws_name = defaultSheet || "BaseShop";
 
     var wb = new Workbook(), ws = sheet_from_array_of_arrays(data);
 
