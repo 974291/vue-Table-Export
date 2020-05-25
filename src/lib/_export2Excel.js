@@ -103,7 +103,7 @@ export function export_table_to_excel(id) {
 
     /* original data */
     var data = oo[0];
-    var ws_name = "CareyShop";
+    var ws_name = "叮当云BaseShop";
     console.log(data);
 
     var wb = new Workbook(), ws = sheet_from_array_of_arrays(data);
@@ -131,7 +131,7 @@ export function export_json_to_excel(th, jsonData, defaultTitle, defaultSheet, o
     var data = jsonData;
     data.unshift(th);
     if (options.header) data.unshift([options.header]);
-    var ws_name = defaultSheet || "BaseShop";
+    var ws_name = defaultSheet || "叮当云BaseShop";
 
     var wb = new Workbook(), ws = sheet_from_array_of_arrays(data);
 
