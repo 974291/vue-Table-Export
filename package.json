@@ -7,7 +7,7 @@
   "main": "dist/export.js",
   "private": false,
   "files": [
-    "/dist/*",
+    "/src/*",
     "LICENSE",
     "README.md",
     "package.json"
