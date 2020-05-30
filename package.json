@@ -1,10 +1,10 @@
 {
   "name": "@aler974291/vue-table-export",
   "description": "vue plugin to export data to text | json | csv | xlsx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "aler974291",
   "license": "AGPL-3.0",
-  "main": "src/lib/index.js",
+  "main": "dist/export.js",
   "private": false,
   "files": [
     "/src/*",
